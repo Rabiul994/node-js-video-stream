@@ -1,11 +1,9 @@
-# node-js-video-stream
+# Video Streaming Server
 Video Stream server built with Node JS
 
-
-Clone this repository
 Go into the project folder and run
 > npm install
 and then
-node server.js
+> npm start
 
 Now, open the browser and go to http://localhost:3000/

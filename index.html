@@ -1,10 +1,25 @@
 <html>
   <head>
     <title>Video stream sample</title>
+    <style>
+      body {
+        background-color:#E7E9EB;
+      }
+      #myDIV {
+        background-color:#FFFFFF;
+        text-align-last: center;
+      }
+      </style>
   </head>
   <body>
-    <video id="videoPlayer" controls muted="muted" autoplay> 
+    <div id="myDIV">
+    <h1 style="color:blue">TeamMinicolumns</h1>
+    <h2>Vedio streaming Demo</h2>
+    </div>
+    <center>
+    <video width="800" height="540" controls id="videoPlayer" controls muted="muted" autoplay> 
       <source src="/video" type="video/mp4">
     </video>
+  </center>
   </body>
 </html>
